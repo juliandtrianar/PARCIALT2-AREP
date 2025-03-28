@@ -31,17 +31,21 @@ Asegúrese que sus funciones sirven cuando el parámetro es 1.
 ```
 git clone https://github.com/juliandtrianar/PARCIALT2-AREP.git
 ```
+ejecute 
 
-https://amazonxxx.x.xxx.x.xxx:{port}/factors?value=13
-{
- "operation": "factors",
- "input":  112,
- "output":  "1, 2, 4, 7, 8, 14, 16, 28, 56, 112"
-}
-https://amazonxxx.x.xxx.x.xxx:{port}/primes?value=100
-{
- "operation": "primes",
- "input":  100,
+```
+mvn clean package
+mvn spring-boot:run
+```
+Una vez corra el servidor
+acceda a
+http://localhost:8080
+
+## Resultados
+![image](https://github.com/user-attachments/assets/f65a48ee-b1aa-47e0-a482-396ccb3b504b)
+![image](https://github.com/user-attachments/assets/5224647a-0f62-4ff7-a825-620ac980e369)
+
+
  "output":  "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89,97"
 }
 
