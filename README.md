@@ -41,6 +41,11 @@ Una vez corra el servidor
 acceda a
 http://localhost:8080
 
+o tamnbien pruebe de esta manera
+
+http://localhost:8080/math/factors/10
+http://localhost:8080/math/primes/10
+
 ## Resultados
 ![image](https://github.com/user-attachments/assets/f65a48ee-b1aa-47e0-a482-396ccb3b504b)
 ![image](https://github.com/user-attachments/assets/5224647a-0f62-4ff7-a825-620ac980e369)
